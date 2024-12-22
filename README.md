@@ -1,4 +1,4 @@
-# alfa-challnge
+# alfa-challenge
 
 ![alt text](docs/image.png)
 
