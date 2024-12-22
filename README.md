@@ -15,6 +15,7 @@
 - [Feature selection](alfa_challenge/feature_selection.ipynb)
   - С помощью встроенного в CatBoost `select_features` сначала до 1000 фичей, потом до 500.
 - Modelling
+  - Кроссвалидация и усреднение 5 моделей для каждого лосса
   - [Catboost with MAE loss](alfa_challenge/modelling_catboost_MAE.ipynb)
     - Отнимаю 0.5 от предсказаний, чтобы сместить предсказания, так как WMAE метрика в сореве даёт больший вес близким к 0 таргетам.
     - Лучшее качество при обучении на всех фичах
