@@ -1,5 +1,7 @@
 import pickle
 
+import pandas as pd
+
 
 def reduce_df_size(
     df: pd.DataFrame, force_cat: list | None = None, drop: list | None = None
