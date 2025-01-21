@@ -1,5 +1,14 @@
 # alfa-challenge
 
+- [Alfa Challenge](https://www.kaggle.com/competitions/alfa-challenge/)
+- Tabular classification problem.
+- The training data is transactions time-series for 100k clients of the bank.
+- The evaluation metric is MAE.
+- Target is one of seven classes representing a next month balance group.
+- Achieved first place with a huge gap.
+
+## My solution
+
 ![alt text](docs/image.png)
 
 - Feature generation
